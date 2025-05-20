@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+.content {
+    width: 90%;
+    margin: 20px auto;
+}
+.content h2{
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    color: red;
+}
+
+.edu-resources-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.edu-resources-table th,
+.edu-resources-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.edu-resources-table th {
+    background-color: #f2f2f2;
+}
+
+.edu-resources-table img {
+    max-width: 100px;
+}

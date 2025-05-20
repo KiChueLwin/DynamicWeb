@@ -1,0 +1,303 @@
+/* aboutus.css */
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar .container {
+    width: 100%;
+    max-width: none;
+    padding: 0 20px;
+}
+
+.nav-link.dropdown-toggle {
+    color: #ffffff;
+}
+
+.nav-link.dropdown-toggle:hover {
+    color: rgb(244, 48, 48);
+}
+
+.dropdown-menu {
+    background-color: #333333;
+    border: 1px solid #666666;
+}
+
+.dropdown-item {
+    color: #cccccc;
+}
+
+.dropdown-item:hover {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tour-section {
+    padding: 60px 0;
+    background-color: white;
+    color: black;
+}
+
+.tour-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px; /* Added gap for spacing */
+}
+
+.tour-text {
+    flex: 1;
+}
+
+.tour-text h2 {
+    color: #ff4d4d;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.tour-text p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.culinary-philosophy,
+.values {
+    margin-top: 20px;
+}
+
+.culinary-philosophy h2,
+.values h2 {
+    color: #ff4d4d;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', Georgia, serif;
+    margin-bottom: 10px;
+}
+
+.culinary-philosophy ul,
+.values ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.culinary-philosophy li,
+.values li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+}
+
+.tour-images {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.tour-images img {
+    width: 200px;
+    border: 2px solid #ff4d4d;
+    border-radius: 5px;
+    max-width: 100%; /* Make images responsive within their container */
+    height: auto;
+}
+
+.about-us-content {
+    padding: 20px;
+    background-color: white;
+}
+
+.team {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #ff4d4d;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(22 16 15 / 20%);
+    width: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: black; /* Ensure text is readable on white background */
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.team-member h3 {
+    margin: 10px 0;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: red;
+    font-family: 'Inter', sans-serif;
+}
+
+footer {
+    background-color: #121212;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: bold;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+/* Responsive Design */
+
+/* Mobile View (up to 767px) */
+@media (max-width: 767px) {
+    .container {
+        padding: 15px;
+    }
+
+    .tour-content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    .tour-images {
+        margin-left: 0;
+        flex-direction: row;
+        overflow-x: auto; /* Enable horizontal scrolling for images */
+        width: 100%; /* Ensure it takes full width */
+    }
+
+    .tour-images img {
+        min-width: 150px; /* Ensure images don't get too small */
+        margin-right: 10px;
+    }
+
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        width: 90%; /* Adjust width for smaller screens */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tour-text h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Tablet View (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        padding: 20px;
+    }
+
+    .tour-content {
+        gap: 25px;
+    }
+
+    .tour-images {
+        flex-direction: row;
+        overflow-x: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .tour-images img {
+        min-width: 180px;
+        margin-right: 15px;
+    }
+
+    .team-members {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .team-member {
+        width: auto; /* Reset width for tablet */
+    }
+
+    .tour-text h2 {
+        font-size: 2.2rem;
+    }
+}

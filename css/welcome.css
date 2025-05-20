@@ -1,0 +1,289 @@
+body {
+    background-color: #1d222c;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    padding: 20px;
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #1d222c !important;
+}
+.home-contact {
+    background: linear-gradient(0deg, rgba(10, 20, 30, 0.6) 0%, rgba(0, 0, 0, 0.8) 100%), url('image/hero-bg.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.home-contact h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.join-us-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px auto;
+}
+
+.join-us-button:hover {
+    background-color: #cc0000;
+}
+
+.btn-dashboard {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-dashboard:hover {
+    background-color: #cc0000;
+}
+
+.about-us {
+    padding: 60px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.form-label {
+    color: black;
+}
+
+.btn-primary {
+    background-color: red;
+}
+
+.btn-dashboard {
+    background-color: red;
+}
+
+.featured-recipes {
+    padding: 60px 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.carousel img {
+    border-radius: 10px;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.culinary-trends-section {
+    background-color: #1a1a1a;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.culinary-trends-section h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.trends-description {
+    font-size: 1.1rem;
+    color: #aaa;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.trends-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trend-item {
+    background-color: #222;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.trend-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.trend-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.trend-item p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.trend-item img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #121212;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+/* Specific styles for welcome.php */
+.welcome-container {
+    text-align: center;
+    background-color: rgba(26, 26, 26, 0.74);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    /* Position absolutely to center */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the container */
+}
+
+.welcome-message {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.account-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.account-button:hover {
+    background-color: #cc0000;
+}
+
+/* Adjust navbar container */
+.navbar .container {
+    width: 100%;
+    /* Make the container full-width */
+    max-width: none;
+    /* Remove max-width restriction */
+    padding: 0 20px;
+    /* Add padding */
+}
+
+
+.nav-link.dropdown-toggle {
+    color: #ffffff;
+    /* Change text color */
+}
+
+.nav-link.dropdown-toggle:hover {
+    color: rgb(244, 48, 48);
+    /* Change text color on hover */
+}
+
+.dropdown-menu {
+    background-color: #333333;
+    /* Change background color of the menu */
+    border: 1px solid #666666;
+    /* Change the border */
+}
+
+.dropdown-item {
+    color: #cccccc;
+    /* Change text color of the items */
+}
+
+.dropdown-item:hover {
+    background-color: #555555;
+    /* Change background color on hover */
+    color: #ffffff;
+    /* Change text color on hover */
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    /* Style the active state (if needed) */
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.home-welcome {
+    background: linear-gradient(0deg, rgba(10, 20, 30, 0.6) 0%, rgba(0, 0, 0, 0.8) 100%), url('../image/hero-bg.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}

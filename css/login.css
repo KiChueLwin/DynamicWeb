@@ -1,0 +1,60 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1d222c;
+}
+
+.login-form {
+    background-color: #d6d9df;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    /* Adjust width as needed */
+    max-width: 95%;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #084182;
+    /* Red from your theme */
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1f1c1c;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: calc(100%);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #c6bcbc;
+    color: #0e0b0b;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #ad2121;
+    /* Red from your theme */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #cc0000;
+}
